@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    display: block;
+    margin: 12px;
+    text-align: center;
+}
+
+button {
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+    height: 100px;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+}
+
+#button-anchor {
+    display: inline-block;
+    margin: 0px;
+}
+
+#button-to-click {
+    background-color: #27A0B6;
+    border-color:  #27A0B6;
+    z-index: 2;
+}
+
+#button-to-click:active {
+    background-color: #FFFFFF;
+    color: #27A0B6;
+}
+
+#silly-toggle-button.start {
+    background-color: green;
+    border-color:green;
+}
+
+#silly-toggle-button.stop {
+    background-color: red;
+    border-color: red;
+}
+
+#silly-toggle-button.start:active {
+    background-color: #FFFFFF;
+    color: green;
+}
+
+#silly-toggle-button.stop:active {
+    background-color: #FFFFFF;
+    color: red;
+}
+
+button:focus {
+    outline: none;
+}

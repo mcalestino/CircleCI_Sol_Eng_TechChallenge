@@ -1,0 +1,32 @@
+{
+  "name": "circleci-technical-challenge-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config app.js",
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncanpharvey/circleci-technical-challenge-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncanpharvey/circleci-technical-challenge-2/issues"
+  },
+  "homepage": "https://github.com/duncanpharvey/circleci-technical-challenge-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "zombie": "^6.1.4"
+  }
+}
